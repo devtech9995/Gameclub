@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia&display=swap');
+
+.header {
+  width: 100%;
+  /* padding: 2rem 0 1rem; */
+  text-align: center;
+  /* background: linear-gradient(to bottom right, #eff2f6, #cfe3f2); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header_content {
+  color: crimson;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  background: linear-gradient(to top, #f1f3f5, #92c7ef);
+  padding: 1rem;
+  position: relative;
+  box-sizing: border-box;
+  letter-spacing: 30px;
+  font-size: 45px;
+  font-weight: 1000;
+  font-family: Yu Mincho,"\6E38\660E\671D",YuMincho,Hiramin Pro,"\30D2\30E9\30AE\30CE\660E\671D ProN W6",HiraMinProN-W6,"HG\660E\671D E","\FF2D\FF33 \FF30\660E\671D",MS PGothic,"MS \660E\671D",serif;
+}
+
+.contents {
+  padding: 1.5rem;
+  display: flex;
+}
+
+.frame_gameclub {
+  flex: 1;
+  height: 100%;
+  width: 40%;
+  /* background-size: contain; */
+  background-position: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-color: rgba(47, 47, 43, 0);
+}
+
+.gameclub {
+  padding: 1rem 3rem;
+  border: #61dafb;
+  border-color: #61dafb;
+  border-style: double;
+  border-radius: 0.2cm;
+}
+
+.frame_rmt {
+  flex: 1;
+  /* background-color: #eee; */
+  height: 100%;
+  width: 60%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-color: rgba(0, 0, 0, 0); */
+}
+
+.rmt {
+  padding: 1rem 3rem;
+  border: #61dafb;
+  border-color: #61dafb;
+  border-style: double;
+  border-radius: 0.2cm;
+}
+
+.App-link {
+  color: #cfdcdf;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.switch_setting1 {
+  padding: 0.5rem 0 0.5rem;
+}
+
+.switch_setting2 {
+  padding: 0.5rem 0 0.5rem;
+}
+
+.set_play_time1 {
+  border: #cfdcdf;
+  border-color: #cfdcdf;
+  border-style: dotted;
+  padding: 0.5rem 1rem 0.5rem;
+
+}
+
+.set_play_time2 {
+  border: #cfdcdf;
+  border-color: #cfdcdf;
+  border-style: dotted;
+  padding: 0.5rem 1rem 0.5rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.status {
+  font-size: 13px;
+  margin-left: 1rem;
+}
+
+.button2 {
+  background-color: white; 
+  color: #243f7e; 
+  border: 2px solid #65a5ba;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
